@@ -1,0 +1,12 @@
+// Define a variable for the button color
+$button-color: #FF0000;
+
+// Style for button tags
+button {
+	color: $button-color;
+
+	// Style for hover state
+	&:hover {
+		color: #00FF00;
+	}
+}
